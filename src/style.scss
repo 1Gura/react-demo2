@@ -1,0 +1,92 @@
+//переменные
+$width: 24px;
+$span-width: 100%;
+
+.field {
+  input {
+    width: 200px;
+    height: 28px;
+    padding: 2px;
+  }
+}
+
+.nav-menu {
+  li {
+    svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .links-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.button-update-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .button-update {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  .bar-like {
+  }
+  * {
+    cursor: pointer;
+  }
+}
+
+.click {
+  background-color: red;
+}
+.post__info {
+  padding: 20px;
+}
+.post__date {
+  color: #8e8e8e;
+}
+
+.post__container-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+
+  svg {
+    min-width: $width;
+    min-width: $width;
+  }
+  span {
+    margin-left: 10px;
+    width: $span-width;
+  }
+}
+
+.btn-search {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 87%;
+  border: none;
+  top: 15%;
+  cursor: pointer;
+  background-color: #ffffff;
+  outline: none;
+
+  * {
+    width: 20px;
+    height: 20px;
+  }
+}
